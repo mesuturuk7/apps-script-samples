@@ -1,20 +1,4 @@
 /**
- * Copyright Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-// [START apps_script_youtube_report]
-/**
  * Creates a spreadsheet containing daily view counts, watch-time metrics,
  * and new-subscriber counts for a channel's videos.
  */
@@ -86,4 +70,3 @@ function formatColumnName(columnName) {
   name = name.slice(0, 1).toUpperCase() + name.slice(1);
   return name;
 }
-// [END apps_script_youtube_report]
